@@ -1,0 +1,112 @@
+body {
+  margin: 0em;
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  background-color: red; /* Rojo */
+  text-align: center;
+  color: white; /* Color de texto blanco */
+  padding: 20px;
+}
+nav {
+  font-family: Arial, Helvetica, sans-serif; 
+  position: absolute;
+  top: 90px; /* Ajusta la distancia desde arriba */
+  right: 250px; /* Ajusta la distancia desde la izquierda */
+}
+.button_slide {
+  color: #FFF;
+  border: 2px solid blue;
+  border-radius: 0px;
+  padding: 18px 36px;
+  display: inline-block;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 14px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 red;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+}
+
+.slide_down:hover {
+  box-shadow: inset 0 100px 0 0 blue;
+}
+
+.slide_right:hover {
+  box-shadow: inset 400px 0 0 0 #D80286;
+}
+
+.slide_left:hover {
+  box-shadow: inset 0 0 0 50px #D80286;
+}
+
+.slide_diagonal:hover {
+  box-shadow: inset 400px 50px 0 0 #D80286;
+}
+
+#outer {
+  width: 364px;
+  margin: 50px auto 0 auto;
+  text-align: center;
+}  
+
+
+header {
+  height: 800px;
+  background-image: url('fondo.jpg'); /* URL de la imagen de fondo */
+  color: white;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  
+}
+
+h1, img {
+  margin-right: 10px; /* Añade un espacio entre el título y el logo */
+}
+
+h2 {
+  margin-top: 1px; /* Añade un espacio entre el logo y el texto */
+}
+
+footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+footer div {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+footer h3 {
+  color: #333;
+}
+
+footer p {
+  color: #666;
+  margin: 5px 0;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+footer ul li a {
+  color: #333;
+  text-decoration: none;
+}
+
+footer ul li a:hover {
+  color: #007bff; /* Cambia el color al pasar el ratón */
+}
